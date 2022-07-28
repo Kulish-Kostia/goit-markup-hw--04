@@ -269,6 +269,7 @@ padding-bottom: 6px;
 .projects-buttons:focus{
     background-color: var(--accent-hover-color);
     color: #FFFFFF;
+    box-shadow: 0px 4px 4px 0px #00000040;
 }
 .projects-name{
 font-weight: 700;
@@ -378,8 +379,8 @@ border-top: none;
     gap: 30px;
     margin-top: 50px;
 }
-.clients-container{
-    padding: 91px 0;
+.clients-section{
+    padding: 94px 0;
 }
 .clients-list-link:hover,
 .clients-list-link:focus{
@@ -395,6 +396,7 @@ border-top: none;
 }
 .contacts-head-icon{
     fill: currentColor;
+    margin-right: 10px;
 }
 .contacts-head-icon:focus,
 .contacts-head-icon:hover{
@@ -422,7 +424,7 @@ border-top: none;
     width: 44px;
     height: 44px;
     border-radius: 50%;
-    background-color: var(--secondary-p-color);
+background: rgba(255, 255, 255, 0.1);
 }
 
 .footer-list-link:hover,
@@ -432,4 +434,11 @@ border-top: none;
 .right-footer{
     margin-left: 70px;
     margin-top: 12px;
+}
+.projects-item:hover,
+.projects-item:focus{
+    box-shadow: 0px 4px 4px 0px #00000040;
+}
+.projects-item{
+    cursor: pointer;
 }
